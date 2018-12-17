@@ -1,2 +1,2 @@
 # Recreational
-A repository for things I've done for fun.
+A repository for coding I've done for fun.
