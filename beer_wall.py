@@ -6,6 +6,7 @@ def pluralize(count):
 
 wall_size = 99
 on_the_wall = [i+1 for i in range (99)]
+passed_around = []
 bottles = len(on_the_wall)
 
 while bottles > 0:
@@ -16,6 +17,7 @@ while bottles > 0:
     print("Take one down!")
     one_down = on_the_wall.pop()
     print("Pass it around!")
+    passed_around.append(one_down)
 
     bottles = len(on_the_wall)
     s = pluralize(bottles)
